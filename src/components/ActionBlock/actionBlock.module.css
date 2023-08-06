@@ -1,0 +1,28 @@
+.block {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 16px;
+    background-color: var(--primary);
+    font-weight: 600;
+    color: #f1f1f1;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: var(--primary-hover);
+}
+
+
+@media (max-width: 460px) {
+    .block {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

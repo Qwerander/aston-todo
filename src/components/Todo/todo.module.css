@@ -1,0 +1,73 @@
+.todo {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 8px;
+  border: 1px solid var(--primary);
+  border-radius: 16px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 18px;
+  color: var(--text);
+}
+
+.descr {
+  font-size: 14px;
+  color: var(--text);
+  width: 60%;
+}
+
+.btnGroup {
+  align-self: flex-end;
+  min-width: 250px;
+}
+
+.btnDone,
+.btnDel,
+.btnArhive {
+  padding: 8px 8px;
+  border-radius: 16px;
+  font-weight: 600;
+  color: #f1f1f1;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btnDone {
+    background-color: var(--primary);
+}
+
+.btnDone:hover {
+  background-color: var(--primary-hover);
+}
+
+.btnArhive {
+    background-color: var(--secondary);
+}
+
+.btnArhive:hover {
+  background-color: var(--secondary-hover);
+}
+
+.btnDel {
+    background-color: var(--dark-red);
+}
+
+.btnDel:hover {
+  background-color: var(--red);
+}
+
+@media (max-width: 460px) {
+  .content {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .descr {
+    width: 100%;
+  }
+}

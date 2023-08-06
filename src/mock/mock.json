@@ -1,0 +1,39 @@
+{
+    "todos": [
+        {
+         "id": 1,
+         "title": "Сходить в магазин",
+         "description": "Купить продукты",
+         "done": false,
+         "arhive": false   
+        },
+        {
+         "id": 2,
+         "title": "Сходить в магазин",
+         "description": "Купить продукты",
+         "done": true,
+         "arhive": false   
+        },
+        {
+         "id": 3,
+         "title": "Сходить в магазин",
+         "description": "Купить продукты",
+         "done": false,
+         "arhive": true   
+        },
+        {
+         "id": 4,
+         "title": "Сходить в магазин",
+         "description": "Купить продукты",
+         "done": true,
+         "arhive": true   
+        },
+        {
+         "id": 5,
+         "title": "Помыть посуду",
+         "description": "Не забыть протереть",
+         "done": false,
+         "arhive": false   
+        }
+    ]
+}
