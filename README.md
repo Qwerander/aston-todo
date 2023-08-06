@@ -1,6 +1,6 @@
 # Приложение Todo
 
-['Приложение todo (deploy)'](https://aston-todo-kztihkdll-qwerander.vercel.app)
+[Приложение todo (deploy)](https://aston-todo-kztihkdll-qwerander.vercel.app)
 
 ##
 
